@@ -3,11 +3,7 @@
 #include <stdatomic.h>
 #include <threads.h>
 #include <stdbool.h>
-#include <stdio.h>
-#include <assert.h>
-#include <stdlib.h>
-#include <stdbool.h>
-#include <unistd.h>
+
 
 typedef struct Node {//normal node for the queue
     void *data;
